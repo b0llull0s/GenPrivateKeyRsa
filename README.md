@@ -70,7 +70,7 @@ pip install pycryptodome requests beautifulsoup4 pwntools
 - Ensure you have a public key file in `PEM` format (e.g., id_rsa.pub) before running the script.
 
 > [!IMPORTANT]  
-> The script relies on FactorDB's ability to factorize . If FactorDB cannot factorize the modulus, the script will not work.
+> If `FactorDB` cannot factorize the modulus, the script will not work.
 
 > [!CAUTION]
 > Do not use this tool maliciously or on keys you do not own. It is intended for educational purposes and recovery of lost keys.
