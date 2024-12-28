@@ -20,7 +20,6 @@ print(f"Private Exponent (d): {d}")
 - Factorizing a number means breaking it down into its prime factors.
 - For `RSA`, if the `modulus` (product of two primes) can be factorized, the entire cryptosystem can be broken.
 - The strength of an `RSA` key is directly related to its length. Longer keys are much harder to factorize, making the encryption more secure.
-- Using a weak or short key can make the system vulnerable to attacks, as demonstrated in this repository.
 ```python
 def extract_factors(factordb_html):
     # Extracts the prime factors 'p' and 'q' from FactorDB.
